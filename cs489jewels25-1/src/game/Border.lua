@@ -1,8 +1,5 @@
 local Class = require "libs.hump.class"
-local imgBorder = love.graphics.newImage("graphics/border/border1.png")
-local Border = Class{}
-
-function Border:init(x, y, width, height)
+local imgBorder = love.graphics.newImage("graphics/border/border1.p
     self.x = x
     self.y = y
     self.scaleX = width / imgBorder:getWidth()
